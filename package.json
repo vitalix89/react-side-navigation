@@ -1,6 +1,6 @@
 {
   "name": "react-side-navigation",
-  "version": "0.0.0-development",
+  "version": "1.1.0",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -43,6 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vitalix89/react-ts-side-navigation.git"
+    "url": "https://github.com/vitalix89/react-side-navigation.git"
   }
 }
