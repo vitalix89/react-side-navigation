@@ -1,6 +1,6 @@
 {
-  "name": "react-ts-side-navigation",
-  "version": "0.0.0-development",
+  "name": "react-side-navigation",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
