@@ -1,6 +1,6 @@
 {
   "name": "react-side-navigation",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -10,6 +10,7 @@
   "scripts": {
     "commit": "git-cz",
     "build": "tsc",
+    "watch": "tsc --watch",
     "prepublishOnly": "rm -rf ./lib && tsc",
     "lint": "eslint --fix src/**/*.ts{,x}",
     "release": "node-env-run --exec \"semantic-release --no-ci\""
