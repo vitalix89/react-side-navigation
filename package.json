@@ -1,6 +1,6 @@
 {
   "name": "react-ts-side-navigation",
-  "version": "1.0.4",
+  "version": "0.0.0-development",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -11,7 +11,8 @@
     "commit": "git-cz",
     "build": "tsc",
     "prepublishOnly": "rm -rf ./lib && tsc",
-    "lint": "eslint --fix src/**/*.ts{,x}"
+    "lint": "eslint --fix src/**/*.ts{,x}",
+    "release": "semantic-release --no-ci"
   },
   "author": "",
   "license": "ISC",
@@ -29,10 +30,17 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.17.0",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.3",
+    "semantic-release": "^15.13.3"
   },
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "semantic-release": "^15.13.3",
+    "semantic-release-cli": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitalix89/react-ts-side-navigation.git"
   }
 }
