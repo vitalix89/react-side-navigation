@@ -8,6 +8,7 @@
     "lib/*"
   ],
   "scripts": {
+    "commit": "git-cz",
     "build": "tsc",
     "prepublishOnly": "rm -rf ./lib && tsc",
     "lint": "eslint --fix src/**/*.ts{,x}"
@@ -19,6 +20,8 @@
     "@types/react-dom": "^16.8.4",
     "@typescript-eslint/eslint-plugin": "^1.6.0",
     "@typescript-eslint/parser": "^1.6.0",
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-config-react-app": "^3.0.8",
