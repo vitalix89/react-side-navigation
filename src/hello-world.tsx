@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 export class HelloWorld extends React.Component<any, any> {
-  render() {
+  public render() {
     return <div style={{ color: this.props.color }}>Hello world!</div>;
   }
 }
